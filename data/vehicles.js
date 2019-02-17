@@ -13,7 +13,7 @@ var data = [
         ubicacion: "",
         descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 4 personas",
         precio: "Precio varia segun la distancia",
-        imagen: "img/uber.jpg"
+        imagen: "img/Uber.jpg"
 
     },
     {
