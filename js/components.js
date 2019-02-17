@@ -18,7 +18,7 @@ function card_normal(titulo,subtitulo,subtitulo2,imagen){
 return `
 
 
-<div class="col s12 m6 l4 xl3">
+<div class="col s12 m6 l4 xl3" style="cursor:pointer">
       <div class="card   elevarable">
         <div class="card-image black " >
           <img src="${imagen}" style="height:200px;opacity:0.6">

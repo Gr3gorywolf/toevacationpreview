@@ -25,6 +25,10 @@ margin-left:4%;
 margin-right:4%;
 
 }
+.elevarable{
+transition:all 0.2s !important;
+
+}
 .elevarable:hover{
 
 transform:translateY(-2%);
