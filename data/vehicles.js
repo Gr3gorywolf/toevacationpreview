@@ -1,21 +1,6 @@
 var data = [
 
-    {
-        nombre: "Taxi",
-        ubicacion: "",
-        descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 4 personas",
-        precio: "Precio varia segun la distancia",
-        imagen: "img/taxi.jpg"
 
-    },
-    {
-        nombre: "Uber",
-        ubicacion: "",
-        descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 4 personas",
-        precio: "Precio varia segun la distancia",
-        imagen: "img/Uber.jpg"
-
-    },
     {
         nombre: "Guagua",
         ubicacion: "",
@@ -25,9 +10,9 @@ var data = [
 
     },
     {
-        nombre: "Bus",
+        nombre: "Minibus",
         ubicacion: "",
-        descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 16 personas",
+        descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 10 personas",
         precio: "Precio varia segun la distancia",
         imagen: "img/bus.png"
 
