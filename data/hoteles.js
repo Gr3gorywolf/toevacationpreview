@@ -82,8 +82,6 @@ var data = [
 
 
     },
-
-
     {
         nombre: "Bávaro Princess",
         ubicacion: "Punta Cana",
