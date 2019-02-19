@@ -64,7 +64,30 @@ function card_large(titulo,subtitulo,subtitulo2,imagen){
 
   
   
-  `
-  
-  
+  ` 
   }
+
+function packpageview(titulo,descripcion,imagen,precio){
+return `
+
+<div class="col s12 m6 l4" style="cursor:pointer">
+      <div class="card   elevarable">
+        <div class="card-image black " >
+          <img src="${imagen}" style="height:200px;opacity:0.6">
+          <span class="card-title">${titulo}</span>
+        </div>
+        <div class="card-content" style="max-height:100px;min-height:100px;overflow-y:auto;" >
+          <p >${descripcion}</p>
+        </div>
+        <div class="card-action">
+
+        <h5 class="center"><button class="btn green">Comprar <i class="material-icons inline-icon">attach_money</i>${precio}</button><h5>
+      </div>
+      </div>
+    </div>
+
+
+`
+
+
+}
