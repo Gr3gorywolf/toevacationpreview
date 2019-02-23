@@ -10,7 +10,7 @@ function loaded(){
     
     
         containervehiculos.innerHTML=vehicledata;
-        document.body.innerHTML+=BottonSheetModal();
+        document.getElementsByTagName("main")[0].innerHTML+=BottonSheetModal();
         inicializarmodal();
 }
 function showmodal(index){

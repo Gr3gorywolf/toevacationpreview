@@ -54,9 +54,7 @@ function card_large(titulo,subtitulo,subtitulo2,imagen,index=0){
           <a href="#" class="green-text">${subtitulo2}</a>
         </div>   
         </div>
-      </div>
-  
-  
+      </div> 
   `
   }
 
@@ -64,7 +62,7 @@ function card_large(titulo,subtitulo,subtitulo2,imagen,index=0){
 
 
 function   BottonSheetModal(){
- return `<div id="modalprices" class="modal bottom-sheet modal-fixed-footer" style="max-height:100%;">
+ return `<div id="modalprices" class="modal bottom-sheet modal-fixed-footer" style="max-height:100%;z-index:90">
   <div class="modal-content">
     <h4 id="modaltitulo" class="truncate"></h4>
     <div id="modalcontainer">

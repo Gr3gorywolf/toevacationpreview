@@ -10,7 +10,7 @@ var hotelsdata="";
 
 
     containerhotels.innerHTML=hotelsdata;
-    document.body.innerHTML+=BottonSheetModal();
+    document.getElementsByTagName("main")[0].innerHTML+=BottonSheetModal();
     inicializarmodal();
 
 }

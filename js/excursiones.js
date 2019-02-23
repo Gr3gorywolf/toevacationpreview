@@ -11,7 +11,7 @@ function loaded(){
     
     
         containerexcursiones.innerHTML=excursiondata;
-        document.body.innerHTML+=BottonSheetModal();
+        document.getElementsByTagName("main")[0].innerHTML+=BottonSheetModal();
         inicializarmodal();
        
         

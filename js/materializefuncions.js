@@ -1,8 +1,10 @@
 
 var instanciamodal=null;
+var instanciasidenav=null;
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
+     instanciasidenav = M.Sidenav.init(elems);
+     console.log("initialized")
   });
 
   function inicializarmodal(){
