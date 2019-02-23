@@ -4,17 +4,31 @@ var data = [
     {
         nombre: "Guagua",
         ubicacion: "",
-        descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 8 personas",
-        precio: "Precio varia segun la distancia",
-        imagen: "img/guagua.jpg"
-
+        descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 8 personas",      
+        imagen: "img/guagua.jpg",
+        precios: [
+            {
+                titulo: "Desde el hotel hasta el aeropuerto",
+                descripcion: "En una guagua",
+                precio: "500 pesos",
+            }
+          
+        ]
     },
     {
         nombre: "Minibus",
         ubicacion: "",
         descripcion: "Desde el aeropuerto hasta el hotel con capacidad de hasta 10 personas",
-        precio: "Precio varia segun la distancia",
-        imagen: "img/bus.png"
+        imagen: "img/bus.png",
+        precios: [
+            {
+                titulo: "Desde el hotel hasta el aeropuerto",
+                descripcion: "En un minubus",
+                precio: "700 pesos",
 
+
+            }
+
+        ]
     },
 ]

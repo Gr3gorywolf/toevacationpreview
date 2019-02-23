@@ -34,3 +34,7 @@ transition:all 0.2s !important;
 transform:translateY(-2%);
 
 }
+.nav-wrapper ul li:hover{
+background-color:#4caf4f8c;
+
+}

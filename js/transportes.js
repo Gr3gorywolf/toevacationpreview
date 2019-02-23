@@ -2,12 +2,19 @@ function loaded(){
     var containervehiculos=document.getElementById("containervehiculos");
     var vehicledata="";
         for(let i=0;i<data.length;i++){
-            vehicledata+=card_normal(data[i].nombre,data[i].descripcion,data[i].precio,data[i].imagen);
+            let precioaprox=data[i].precios[0].descripcion + " Desde "+ data[i].precios[0].precio
+            vehicledata+=card_normal(data[i].nombre,data[i].descripcion,precioaprox,data[i].imagen,i);
     
     
         }
     
     
         containervehiculos.innerHTML=vehicledata;
-    
+        document.body.innerHTML+=BottonSheetModal();
+        inicializarmodal();
+}
+function showmodal(index){
+    fillbottomsheet(data[index].nombre,data[index].precios);
+
+
 }
