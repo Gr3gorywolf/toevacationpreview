@@ -5,24 +5,7 @@ var data = [
         ubicacion: "Boca chica",
         descripcion: "4 dias 3 noches",
         precio: "$681",
-        imagen: "img/hotel1.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel1.jpg"
 
     },
 
@@ -32,24 +15,7 @@ var data = [
         ubicacion: "Punta cana",
         descripcion: "4 dias 3 noches",
         precio: "£950",
-        imagen: "img/hotel2.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel2.jpg"
 
     },
 
@@ -59,24 +25,7 @@ var data = [
         ubicacion: "Bávaro",
         descripcion: "4 dias 3 noches",
         precio: "$681",
-        imagen: "img/hotel3.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel3.jpg"
 
     },
 
@@ -86,29 +35,12 @@ var data = [
         ubicacion: "Bayahibe, La Romana",
         descripcion: "4 dias 3 noches",
         precio: "$681",
-        imagen: "img/hotel4.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel4.jpg"
 
     },
 
 
-
+  
 
 
     {
@@ -116,24 +48,8 @@ var data = [
         ubicacion: "Punta Cana",
         descripcion: "4 dias 3 noches",
         precio: "$681",
-        imagen: "img/hotel5.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel5.jpg"
+
     },
 
 
@@ -142,24 +58,8 @@ var data = [
         ubicacion: "Bávaro",
         descripcion: "4 dias 3 noches",
         precio: "$681",
-        imagen: "img/hotel6.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel6.jpg"
+
     },
 
 
@@ -168,24 +68,7 @@ var data = [
         ubicacion: "Bávaro",
         descripcion: "4 dias 3 noches",
         precio: "$681",
-        imagen: "img/hotel7.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel7.jpg"
 
     },
 
@@ -195,50 +78,18 @@ var data = [
         ubicacion: "Higüey",
         descripcion: "4 dias 3 noches",
         precio: "$681",
-        imagen: "img/hotel8.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel8.jpg"
 
 
     },
+
+
     {
         nombre: "Bávaro Princess",
         ubicacion: "Punta Cana",
         descripcion: "Surfer's Home 4 Days - 3 Nights",
         precio: "$681",
-        imagen: "img/hotel9.jpg",
-        precios: [
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            },
-            {
-                titulo: "Pasadias",
-                descripcion: "1 día 2 personas",
-                precio: "370 pesos"
-            }
-        ]
+        imagen: "img/hotel9.jpg"
 
 
     },

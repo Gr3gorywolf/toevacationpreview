@@ -13,7 +13,7 @@ body {
 
   }
   .wallpapered {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../img/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("img/bg.jpg");
     background-position: center center;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -25,55 +25,8 @@ margin-left:4%;
 margin-right:4%;
 
 }
-.elevarable{
-transition:all 0.2s !important;
-
-}
 .elevarable:hover{
 
 transform:translateY(-2%);
-
-}
-.nav-wrapper ul li:hover{
-background-color:#4caf4f8c;
-
-}
-.loginboxcontents{
-  width:92%;
-margin:4%;
-
-}
-.loginbox{
-  padding:10px;
-  position:relative;
-  margin:auto;
-  top:65px;
-  left:0;
-  right:0;
-  bottom:0;
-  margin-bottom:65px;
-   height:390px;
-   width:350px;
-   border-radius:10px;
-}
-.registrybox{
-  padding:10px;
-  position:relative;
-  margin:auto;
-  top:25px;
-  left:0;
-  right:0;
-  bottom:0px;
-  margin-bottom:25px;
-   height:655px;
-   width:350px;
-   border-radius:10px;
-}
-
-@media(max-width:400px){
-.registrybox,.loginbox{
-width:90%;
-
-}
 
 }

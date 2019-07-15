@@ -11,74 +11,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
 
 </head>
 
-<body onload="loaded()" class="wallpapered" onscroll="scrolleo()">
+<body onload="loaded()">
 
     <header>
         <nav style="z-index:99;position:fixed">
             <div class="nav-wrapper grey darken-3">
-                <a href="index.html"> <img class="brand-logo" src="img/banner.png" style="height:60px;" /></a>
+               <a href="index.html"> <img class="brand-logo" src="img/banner.png" style="height:60px;" /></a>
                 <a href="#" data-target="sidemenu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-
+                    <li><a href="acercade.html">Sobre nosotros</a></li>
                     <li><a href="hoteles.html">Hoteles</a></li>
                     <li><a href="transportes.html">Transportes</a></li>
+                    <li><a href="resorts.html">Resorts</a></li>
                     <li><a href="excursion.html">Excursiones</a></li>
-                    <li><a href="acercade.html">Sobre nosotros</a></li>
+                    <li><a href="equipo.html">Equipo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                     <li><a href="ingresar.html">Ingresar</a></li>
 
                 </ul>
             </div>
         </nav>
         <ul id="sidemenu" class="sidenav">
-
+            <li><a href="acercade.html"><i class="material-icons">info</i>Sobre nosotros</a></li>
             <li> <a href="hoteles.html"><i class="material-icons">hotel</i>Hoteles</a></li>
             <li> <a href="transportes.html"><i class="material-icons">directions_car</i>Transportes</a></li>
             <li> <a href="excursion.html"><i class="material-icons">directions_bike</i>Excursiones</a></li>
-            <li><a href="acercade.html"><i class="material-icons">info</i>Sobre nosotros</a></li>
+            <li> <a href="equipo.html"><i class="material-icons">people</i>Equipo</a></li>
+            <li> <a href="contacto.html"><i class="material-icons">contacts</i>Contacto</a></li>
             <li> <a href="ingresar.html"><i class="material-icons">input</i>Ingresar</a></li>
         </ul>
     </header>
     <main id="container">
-        <button class="btn-floating btn-large green animated zoomIn" onclick="scrollearA()" id="botonscroll" style="position:fixed;right:5%;bottom:5%;z-index:999;"><i
-                class="material-icons" id="imagenboton">arrow_downward</i></button>
-        <div class="grey darken-3" style="border-radius:5px;padding:10px;margin-left:5%;margin-right:5%;margin-top:120px">
-            <div class="slider fullscreen" style="z-index:50;width:100%;height:100%;display:block;position:absolute;">
-                <ul class="slides" id="slides">
 
-                </ul>
+        <div class="slider fullscreen" style="z-index:50">
+            <ul class="slides" id="slides">
 
+            </ul>
 
-
-
-
-                <h5 style="margin-bottom:50px;" id="paquetes"></h5>
-                <div class="row" style="margin-top:4%;">
-                    <div class="col s12">
-                        <h2 class="center"> <i class="material-icons white-text center" style="font-size:80px">shopping_basket</i></h2>
-                        <h4 class="white-text center">Nuestros paquetes</h4>
-                    </div>
-
-                </div>
-                <div class="row container grey darken-3" style="border-radius:10px;padding:15px" id="containerpaquetes">
-
-                </div>
-
-
-
-
-
-            </div>
         </div>
 
 
 
 
+
     </main>
-    <footer class="page-footer  grey darken-3" style="margin-top:100%;display:none;">
+    <footer class="page-footer  grey darken-3" style="display:none">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -110,7 +90,7 @@
                             <h6 class="white-text"><i class="material-icons inline-icon">mail</i>&nbsp;ToursOperadoresEsperanza@gmail.com</h6>
                         </li>
                         <li>
-                            <h6 class="white-text"><img class="inline-icon" src="img/facebook.png" />&nbsp;Tours
+                            <h6 class="white-text"><img class="inline-icon" src="/img/facebook.png" />&nbsp;Tours
                                 Operadores Esperanza</h6>
                         </li>
                     </ul>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+
 </head>
 
 <body onload="loaded()" class="wallpapered">
@@ -19,138 +19,94 @@
     <header>
         <nav>
             <div class="nav-wrapper grey darken-3">
-                <a href="index.html"> <img class="brand-logo" src="img/banner.png" style="height:60px;" /></a>
+                    <a href="index.html"> <img class="brand-logo" src="img/banner.png" style="height:60px;" /></a>
                 <a href="#" data-target="sidemenu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="acercade.html">Sobre nosotros</a></li>
                     <li><a href="hoteles.html">Hoteles</a></li>
                     <li><a href="transportes.html">Transportes</a></li>
                     <li><a href="excursion.html">Excursiones</a></li>
-                    <li><a href="acercade.html">Sobre nosotros</a></li>
+                    <li><a href="equipo.html">Equipo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                     <li><a href="ingresar.html">Ingresar</a></li>
 
                 </ul>
             </div>
         </nav>
         <ul id="sidemenu" class="sidenav">
+            <li><a href="acercade.html"><i class="material-icons">info</i>Sobre nosotros</a></li>
             <li> <a href="hoteles.html"><i class="material-icons">hotel</i>Hoteles</a></li>
             <li> <a href="transportes.html"><i class="material-icons">directions_car</i>Transportes</a></li>
             <li> <a href="excursion.html"><i class="material-icons">directions_bike</i>Excursiones</a></li>
-            <li><a href="acercade.html"><i class="material-icons">info</i>Sobre nosotros</a></li>
+            <li> <a href="equipo.html"><i class="material-icons">people</i>Equipo</a></li>
+            <li> <a href="contacto.html"><i class="material-icons">contacts</i>Contacto</a></li>
             <li> <a href="ingresar.html"><i class="material-icons">input</i>Ingresar</a></li>
         </ul>
     </header>
     <main id="container" style="margin-top:30px;" class="minicontainer">
 
-        <div class="row container ">
-            <div class="col s12" style="margin-bottom:60px">
-                <h3 class="center"><img class="center" style="height:90px;width:90px" src="img/icon.png" /> </h3>
-                <h3 class="center white-text">Sobre Tours Operadores Esperanza</h3>
-            </div>
+        <div class="row ">
+                <div class="col s12"><h3 class="center"><img class="center" style="height:90px;width:90px" src="img/icon.png"/> </h3>
+                    <h3 class="center white-text">Sobre Tours Operadores Esperanza</h3>
+                </div>
 
-            <div class="col s12" style="margin-bottom:60px">
-                <h2 class="center"> <i class="material-icons white-text" style="font-size:80px">videocam</i> </h2>
-                <h3 class="center white-text">Vídeo promocional</h3> <br>
-                <div class="grey darken-3" style="border-radius:5px;height:100%;width:100%;padding:2%">
-                    <video controls src="video/1.mp4" poster="img/icon.png" style="height:100%;width:100%" class="black">
+            <div class="col s12  m12 l7 xl8">
+
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <video controls src="video/1.mp4" poster="/img/icon.png" style="height:100%;width:100%;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 center">Video promocional</span>
+                       
+                    </div>
+                   
                 </div>
 
 
 
-
             </div>
-
-
-
-
-            <div class="col s12" style="margin-bottom:60px">
-                <h2 class="center"> <i class="material-icons white-text" style="font-size:80px">info</i> </h2>
-                <h3 class="center white-text">¿Quienes somos?</h3> <br>
-                <h6 class="center white-text">
-
-                    Tours Operadores Esperanza es una compañía tour operador
-                    receptivo/ emisivo que se encarga  de mostrar los encantos de la República
-                    Dominicana; tanto nuestras playas, así como nuestra cultura y nuestra ecología.
-                    Desarrollamos Turismo Sustentable para el beneficio de la comunidad, al tiempo que
-                    cuidamos la ecología,
-                    y esta cultura tan valiosa que tenemos llena de colorido, encanto, diversión y sabor
-                    gastronómico.
-                    Nuestra tradición ancestral deja fascinados a los turistas que nos visitan, con esas
-                    ansias de conocerla a fondo.
-
-                </h6>
+            <div class="col s12 m12 l5 xl4" style="height:100%">
+                <ul class="collapsible popout" >
+                    <li class="active  white">
+                        <div class="collapsible-header yellow"><i class="material-icons">info</i>¿Quienes Somos?</div>
+                        <div class="collapsible-body"><span>Tours Operadores Esperanza Es una Compañia Tour Operadora
+                                receptivo/emisivo que se encargar de mostrar los encantos de la Republica
+                                Dominicana;tanton nuestras playas, asi como nuestra cultura y nuestra ecologia.
+                                Desarrollamos Turismo Sustentable para el beneficio de la comunidad, al tiempo que
+                                cudamos la ecologia,
+                                y esta cultura tan valiosa que tenemos llena de colorido, encanto, diveercion y sabor
+                                gastronomico.
+                                Nuestra tradicion ancentral deja fascinados a los turista que nos visitan, con esas
+                                ansias de conocerla a fondo.</span></div>
+                    </li>
+                    <li class="white ">
+                        <div class="collapsible-header green"><i class="material-icons">remove_red_eye</i>Vision</div>
+                        <div class="collapsible-body"><span>Ser lider en servicio turisticos, garantizando una
+                                innovacion cosntante
+                                para ser reconocidos
+                                por la calidad humana de nuestra gente y por nuestra contribucion a la comunidad.</span></div>
+                               
+                    </li>
+                    <li class="white ">
+                        <div class="collapsible-header blue"><i class="material-icons">work</i>Mision</div>
+                        <div class="collapsible-body"><span>Ayudar a nuestros clientes a tener una experiencia
+                                inolvidable al contempalar nuestra cultura, nuestra ecologia y los atractivos que
+                                tenemos;
+                                y a la vez una gran impresion del servicio de calidad y
+                                caliz que reciben de parte de nuestro equipo y de la comunidad.</span></div>
+                    </li>
+                </ul>
             </div>
-
-
-            <div class="col s12" style="margin-bottom:60px">
-                <h2 class="center"> <i class="material-icons white-text" style="font-size:80px">work</i> </h2>
-                <h3 class="center white-text">Misión</h3> <br>
-                <h6 class="center white-text">
-
-                    Ayudar a nuestros clientes a tener una experiencia
-                    inolvidable al contemplar nuestra cultura, nuestra ecología y los atractivos que
-                    tenemos;
-                    y a la vez una gran impresión del servicio de calidad  que reciben de parte de nuestro equipo y de la comunidad.
-
-                </h6>
-            </div>
-
-
-
-
-            <div class="col s12" style="margin-bottom:60px">
-                <h2 class="center"> <i class="material-icons white-text" style="font-size:80px">remove_red_eye</i> </h2>
-                <h3 class="center white-text">Visión</h3> <br>
-                <h6 class="center white-text">
-
-                    Ser líder en servicio turísticos, garantizando una
-                    innovación constante
-                    para ser reconocidos
-                    por la calidad humana de nuestra gente y por nuestra contribución a la comunidad.
-
-                </h6>
-            </div>
-
-            <div class="col s12" style="margin-bottom:60px">
-                <h2 class="center"> <i class="material-icons white-text" style="font-size:80px">people</i> </h2>
-                <h3 class="center white-text">Nuestro equipo</h3>
-
-
-
-            </div>
-            <div class="row">
-
-                <div class="col s12 m6 l4" style="margin-top:2%;margin-bottom:2%;">
-                    <img src="img/carmen.jpg" style="border-radius:50%;height:125px;width:125px;margin-left:calc(50% - 63px)">
-                    <h6 class="white-text center">CARMEN PARRA DE DE LOS SANTOS</h6>
-                    <h6 class="white-text center">Directora General</h6>
-                </div>
-                <div class="col s12 m6 l4" style="margin-top:2%;margin-bottom:2%;">
-                    <img src="img/ramon.jfif" style="border-radius:50%;height:125px;width:125px;margin-left:calc(50% - 63px)">
-                    <h6 class="white-text center">Ramón Antonio Adelson</h6>
-                    <h6 class="white-text center" style="width:100%">Encargado de operaciones</h6>
-                </div>
-                <div class="col s12 m6 l4" style="margin-top:2%;margin-bottom:2%;">
-                    <img src="img/david.jpg" style="border-radius:50%;height:125px;width:125px;margin-left:calc(50% - 63px)">
-                    <h6 class="white-text center">DAVID SANCHEZ</h6>
-                    <h6 class="white-text center">Director de Tecnología y Marketing</h6>
-                </div>
-                <div class="col s12 m6 l4" style="margin-top:2%;margin-bottom:2%;">
-                    <img src="img/gregory.jpg" style="border-radius:50%;height:125px;width:125px;margin-left:calc(50% - 63px)">
-                    <h6 class="white-text center">GREGORY CABRAL DE LOS SANTOS</h6>
-                    <h6 class="white-text center" style="width:100%">Desarrollador web y móvil</h6>
-                </div>
-
-            </div>
-
-
 
         </div>
 
 
 
 
-        </div>
-
+       </div>
+          
 
 
 
@@ -187,7 +143,7 @@
                             <h6 class="white-text"><i class="material-icons inline-icon">mail</i>&nbsp;ToursOperadoresEsperanza@gmail.com</h6>
                         </li>
                         <li>
-                            <h6 class="white-text"><img class="inline-icon" src="img/facebook.png" />&nbsp;Tours
+                            <h6 class="white-text"><img class="inline-icon" src="/img/facebook.png" />&nbsp;Tours
                                 Operadores Esperanza</h6>
                         </li>
                     </ul>
