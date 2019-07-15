@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tours Operadores Esperanza</title>
+  <link rel="icon" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Add icon library -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+</head>
+
+<!-- Donde comienza el cuerpo de el front-end-->
+
+<body class="grey lighten-3" onload="loaded()">
+  <header>
+    <!-- Header-->
+    <nav style="z-index:99;position:fixed;top:0px;">
+      <div class="nav-wrapper grey darken-3">
+        <a href="index.html">
+          <img class="brand-logo" src="img/banner.png" style="height:60px;" />
+        </a>
+
+        <ul class="right hide-on-med-and-down " style="margin-right:5%">
+
+          <li>
+            <a href="adventures.html">Adventures</a>
+          </li>
+          <li>
+            <a href="packages.html">Packages</a>
+          </li>
+          <li>
+            <a href="transfers.html">Transfers</a>
+          </li>
+          <li>
+            <a href="about.html">About us</a>
+          </li>
+          <li>
+            <a href="feedback.html">Feedback</a>
+          </li>
+        </ul>
+
+
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </nav>
+    <ul id="nav-mobile" class="sidenav white">
+      <li>
+        <h3 class="center">
+          <img src="img/icon.png" style="height:60px;width:60px;">
+        </h3>
+      </li>
+      <li>
+        <a href="adventures.html">
+          <i class="material-icons">beach_access</i>Adventures</a>
+      </li>
+      <li>
+        <a href="packages.html">
+          <i class="material-icons">card_travel</i>Packages</a>
+      </li>
+      <li>
+        <a href="transfers.html">
+          <i class="material-icons">airport_shuttle</i>Transfers</a>
+      </li>
+      <li>
+        <a href="about.html">
+          <i class="material-icons">info</i>About us</a>
+      </li>
+      <li>
+        <a href="feedback.html">
+          <i class="material-icons">message</i>Feedback</a>
+      </li>
+    </ul>
+    <div class="orange darken-3 phonebanner">
+      <h6 class="left white-text" style="margin:8px;">
+        <i class="material-icons white-text inline-icon">local_phone</i>809-349-5172</h6>
+      <ul class="right" style="margin-right:8px;margin-top:9px;">
+        <a href="https://www.facebook.com/Toevacation-514840719010377/" class="fa fa-facebook" style="font-size:23px;color:white;"></a>
+        <a href="#" class="fa fa-twitter" style="font-size:23px;color:white;"></a>
+        <a href="#" class="fa fa-youtube" style="font-size:23px;color:white;"></a>
+        <a href="https://www.instagram.com/toevacation/" class="fa fa-instagram" style="font-size:23px;color:white;"></a>
+        <a href="#" class="fa fa-pinterest" style="font-size:23px;color:white;"></a>
+
+      </ul>
+    </div>
+  </header>
+  <!-- End of the header -->
+
+
+
+  <!-- Donde Comienza el slideshow de introduccion-->
+
+  <main style="margin-top:-3px">
+
+    <div class="row customcontainer" style="">
+      <div class="col s12 l3">
+        <h5 class="center  orange-text text-darken-1">Destinations</h5>
+        <ul class="collection " id="containerlocations">
+
+        </ul>
+      </div>
+      <div class="col s12 l9">
+
+
+
+        <div class="slider " id="slideshow">
+          <ul class="slides black" id="slides">
+          </ul>
+        </div>
+        <h4 class="center orange-text text-darken-3" id="packageslocation">All packpages</h4>
+        <div class="row" id="containerhotels">
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+  </main>
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col  s12 m6">
+          <h5 class="orange-text text-darken-1">WHO WE ARE</h5>
+          <p class="">
+            TOE vacation Tour and Travel is a DMC, Destination Management Company, a receptive tour operator in the Dominican Republic.
+            We are all you need in the Caribbean destination. Colonial Tours is a reliable company with more than 10 years
+            of experience and committed to the highest level of service and professionalism, constantly researching and applying
+            new technology to create a seamless reservation process, speed of response and hospitality. We are based in Santo
+            Domingo with branch offices in the most important tourism zones of the Dominican Republic: Punta Cana, La Romana,
+            Samana, Boca Chica, Puerto Plata.
+          </p>
+
+
+        </div>
+
+        <div class="col  s12 m6">
+          <h5 class="orange-text text-darken-1">WEBSITE</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="#!">Sitemap</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Private Policy</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Travel Agent</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Accessibility Statement</a>
+            </li>
+          </ul>
+          <h5 class="orange-text text-darken-1">CONTACT US</h5>
+          <P>sales@toevacation.com</P>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+        Made by
+        <a class="orange-text text-darken-1" href="http://materializecss.com">Tours Operadores Esperanza</a>
+      </div>
+    </div>
+
+    <!-- Social Media icons-->
+
+    <section class="section section-follow orange darken-3 white-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="col-sm-3 social">
+              <h4>Social media</h4>
+              <ul>
+                <a href="https://www.facebook.com/Toevacation-514840719010377/" class="fa fa-facebook" style="font-size:23px;color:white;"></a>
+                <a href="#" class="fa fa-twitter" style="font-size:23px;color:white;"></a>
+                <a href="#" class="fa fa-youtube" style="font-size:23px;color:white;"></a>
+                <a href="https://www.instagram.com/toevacation/" class="fa fa-instagram" style="font-size:23px;color:white;"></a>
+                <a href="#" class="fa fa-pinterest" style="font-size:23px;color:white;"></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
+
+
+<!--  Scripts-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135258136-1"></script>
+<script src="js/initanalitics.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="components/components.js"></script>
+<script src="data/allinclusive.js"></script>
+<script src="https://tour-operadores-esperanza.trekksoft.com/es/api/public"></script>
+<script src="js/packages.js"></script>

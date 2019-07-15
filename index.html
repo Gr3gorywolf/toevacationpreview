@@ -1,113 +1,508 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tours Operadores Esperanza</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="yJYRpLyP0TBoAUcndLzVcqittmob6C6Agg62SgBQUwE" />
+  <title>Tours Operadores Esperanza</title>
+  <link rel="icon" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Add icon library -->
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 </head>
 
-<body onload="loaded()">
+<!-- Donde comienza el cuerpo de el front-end-->
 
-    <header>
-        <nav style="z-index:99;position:fixed">
-            <div class="nav-wrapper grey darken-3">
-               <a href="index.html"> <img class="brand-logo" src="img/banner.png" style="height:60px;" /></a>
-                <a href="#" data-target="sidemenu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="acercade.html">Sobre nosotros</a></li>
-                    <li><a href="hoteles.html">Hoteles</a></li>
-                    <li><a href="transportes.html">Transportes</a></li>
-                    <li><a href="resorts.html">Resorts</a></li>
-                    <li><a href="excursion.html">Excursiones</a></li>
-                    <li><a href="equipo.html">Equipo</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="ingresar.html">Ingresar</a></li>
+<body class="grey lighten-3" onload="loaded()">
+  <header>
+    <!-- Header-->
+    <nav style="z-index:99;position:fixed;top:0px;">
+      <div class="nav-wrapper grey darken-3">
+        <a href="index.html">
+          <img class="brand-logo" src="img/banner.png" style="height:60px;" />
+        </a>
 
-                </ul>
-            </div>
-        </nav>
-        <ul id="sidemenu" class="sidenav">
-            <li><a href="acercade.html"><i class="material-icons">info</i>Sobre nosotros</a></li>
-            <li> <a href="hoteles.html"><i class="material-icons">hotel</i>Hoteles</a></li>
-            <li> <a href="transportes.html"><i class="material-icons">directions_car</i>Transportes</a></li>
-            <li> <a href="excursion.html"><i class="material-icons">directions_bike</i>Excursiones</a></li>
-            <li> <a href="equipo.html"><i class="material-icons">people</i>Equipo</a></li>
-            <li> <a href="contacto.html"><i class="material-icons">contacts</i>Contacto</a></li>
-            <li> <a href="ingresar.html"><i class="material-icons">input</i>Ingresar</a></li>
+        <ul class="right hide-on-med-and-down " style="margin-right:5%">
+
+          <li>
+            <a href="adventures.html">Adventures</a>
+          </li>
+          <li>
+            <a href="packages.html">Packages</a>
+          </li>
+          <li>
+            <a href="transfers.html">Transfers</a>
+          </li>
+          <li>
+            <a href="about.html">About us</a>
+          </li>
+          <li>
+            <a href="feedback.html">Feedback</a>
+          </li>
         </ul>
-    </header>
-    <main id="container">
 
-        <div class="slider fullscreen" style="z-index:50">
-            <ul class="slides" id="slides">
 
-            </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger" onclick=" sidenavinst.open()">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+  
+    </nav>
+    
 
+  </header>
+  <!-- End of the header -->
+
+
+
+  <!-- Donde Comienza el slideshow de introduccion-->
+
+  <main>
+    
+    <ul id="nav-mobile" class="sidenav white">
+      <li>
+        <h3 class="center">
+          <img src="img/icon.png" style="height:60px;width:60px;">
+        </h3>
+      </li>
+      <li>
+        <a href="adventures.html">
+          <i class="material-icons">beach_access</i>Adventures</a>
+      </li>
+      <li>
+        <a href="packages.html">
+          <i class="material-icons">card_travel</i>Packages</a>
+      </li>
+      <li>
+        <a href="transfers.html">
+          <i class="material-icons">airport_shuttle</i>Transfers</a>
+      </li>
+      <li>
+        <a href="about.html">
+          <i class="material-icons">info</i>About us</a>
+      </li>
+    </ul>
+
+
+    <div class="orange darken-3 phonebanner">
+      <h6 class="left white-text" style="margin:8px;">
+        <i class="material-icons white-text inline-icon">local_phone</i>809-349-5172</h6>
+      <ul class="right" style="margin-right:8px;margin-top:9px;">
+        <a href="https://www.facebook.com/Toevacation-514840719010377/" class="fa fa-facebook" style="font-size:23px;color:white;"></a>
+        <a href="#" class="fa fa-twitter" style="font-size:23px;color:white;"></a>
+        <a href="#" class="fa fa-youtube" style="font-size:23px;color:white;"></a>
+        <a href="https://www.instagram.com/toevacation/" class="fa fa-instagram" style="font-size:23px;color:white;"></a>
+        <a href="#" class="fa fa-pinterest" style="font-size:23px;color:white;"></a>
+
+      </ul>
+    </div>
+    <section class="slider card" style="height:250%;min-height:250%;max-height:250%;margin-top:-5px;">
+
+      <ul class="slides black">
+        <li>
+          <img src="Hotels/Catalonia-Gran-Dominicus-1A.jpg" style="opacity:0.5" alt="">
+          <div class="caption center-align">
+            <h2>Take Your Dream Vacation</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">Hotel Catalonia Gran Dominicus!</h5>
+            <a href="#" class="btn btn-large orange darken-3">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <img src="Hotels/1-Punta-Cana-Princess.jpg" style="opacity:0.5" alt="">
+          <div class="caption left-align">
+            <h2>We Work With All Budgets</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">Hotel Punta Cana Princess!</h5>
+            <a href="#" class="btn btn-large orange darken-3">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <img src="Hotels/hotelbabaroprincess.jpg" style="opacity:0.5" alt="">
+          <div class="caption right-align">
+            <h2>Group & Individual Getaways</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">Babaro Princess Dominican Republic!</h5>
+            <a href="#" class="btn btn-large orange darken-3">Learn More</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Banner with information-->
+
+    <!-- Termina el slideshow de introduccion -->
+
+    <!--   Icon Section   -->
+    <!-- Popular Excursion -->
+
+    <section id="popular" class=" customcontainer">
+
+      <div>
+        <div class="section ">
+          <h3 class="center">
+            <img class="center" style="height:90px;width:90px" src="img/icon.png" /> </h3>
+          <h4 class="center">
+
+            <span class="orange-text text-darken-3">Everything you need in one place!</h4>
+
+          <div class="row" style="padding:5%;">
+            <a href="#adventures">
+              <div class="col s12 m4 elevarable" style="cursor:pointer;">
+                <h4 class="center">
+                  <i class="material-icons orange-text text-darken-3" style="font-size:70px">beach_access</i>
+                </h4>
+                <h4 class="center">
+                  <span class="orange-text text-darken-3">Adventures </h4>
+                <p class="truncatedparagraph grey-text text-darken-2 center">
+                  Find unique tours in different regions of the Dominican Republic at a competitive price
+                </p>
+              </div>
+            </a>
+            <a href="#packages">
+              <div class="col s12 m4 elevarable " style="cursor:pointer;">
+                <h4 class="center">
+                  <i class="material-icons orange-text text-darken-3" style="font-size:70px">card_travel</i>
+                </h4>
+                <h4 class="center">
+                  <span class="orange-text text-darken-3">Tour package</h4>
+                <p class="truncatedparagraph grey-text text-darken-2 center">
+                  Find discounts and unique prices in the different tour packages we offer you
+                </p>
+              </div>
+            </a>
+            <a href="#transfers">
+              <div class="col s12 m4 elevarable" style="cursor:pointer;">
+                <h4 class="center">
+                  <i class="material-icons orange-text text-darken-3" style="font-size:70px">airport_shuttle</i>
+                </h4>
+                <h4 class="center">
+                  <span class="orange-text text-darken-3">Hotel transfers</h4>
+                <p class="truncatedparagraph grey-text text-darken-2 center">
+                  With our transportation plans you will always know where to go and with a price based on metrics
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      </div>
+    </section>
 
 
 
 
 
-    </main>
-    <footer class="page-footer  grey darken-3" style="display:none">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
+    <section id="search" class=" customcontainer">
 
-                    <h5 class="white-text"> <img style="height:45px;width:45px" src="img/icon.png" />Tours operadores
-                        esperanza</h3>
-                        <p class="grey-text text-lighten-4">Vive, Explora, Disfruta</p>
-                        <div class="row">
-                            <div class="col s4">
+      <div>
+        <div class="section ">
+          <h4 class="center">
+            <i class="material-icons orange-text text-darken-3" style="font-size:70px">search</i>
+          </h4>
 
-                            </div>
-                            <div class="col s4">
 
-                            </div>
+          <h4 class="orange-text text-darken-3 center">Looking for tours?</h4>
 
-                            <div class="col s4">
+          <div class="row" style="padding:5%;">
 
-                            </div>
-                        </div>
+            <div class="customcontainer orange darken-3 elevarable" style="padding:10px 30px 10px 30px;border-radius:50px;">
+              <input id="searchBar" type="search" class="white-text center truncate" placeholder="Adventures,Packages,Transfers,Flights"
+                style="font-size:28px;" required>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <section id="adventures" class=" customcontainer">
+
+      <div>
+        <div class="section ">
+          <h4 class="center">
+            <i class="material-icons orange-text text-darken-3" style="font-size:70px">beach_access</i>
+          </h4>
+          <h4 class="center">
+
+            <span class="orange-text text-darken-3">Popular Adventures </h4>
+          <div style="width:100%" class="center">
+            <a href="adventures.html">
+              <button class="btn-flat  orange-text text-darken-3">See more</button>
+            </a>
+            <div class="row" id="adventurescontainer" style="padding:2%;">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      </div>
+    </section>
+
+
+    <!--All inclusive section-->
+    <section id="packages" class="customcontainer">
+      <div>
+        <div class="section">
+          <h4 class="center">
+            <i class="material-icons orange-text text-darken-3" style="font-size:70px">card_travel</i>
+          </h4>
+          <h4 class="center">
+
+            <span class="orange-text text-darken-3">Our packages </h4>
+          <div style="width:100%" class="center">
+            <a href="packages.html">
+              <button class="btn-flat  orange-text text-darken-3">See more</button>
+            </a>
+            <div class="row" id="hotelscontainer" style="padding:2%;">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      </div>
+    </section>
+
+    <!-- Transports section-->
+    <section id="transfers" class=" customcontainer">
+      <div>
+        <div class="section ">
+          <div class="row" style="padding:2%;">
+            <h4 class="center">
+              <i class="material-icons orange-text text-darken-3" style="font-size:70px">airport_shuttle</i>
+            </h4>
+            <h4 class="center">
+
+              <span class="orange-text text-darken-3">Transfers </span>
+            </h4>
+            <div class="col s12 center">
+              <a href="transfers.html">
+                <button class="btn-flat  orange-text text-darken-3">See more
+                </button>
+              </a>
+            </div>
+            <div class="col s12 m6 l4  xl3">
+              <div class="card large hoverable">
+                <div class="card-image black">
+                  <img src="img/transfer1.jpg" alt="" style="opacity:.65">
+                  <span class="truncate card-title">Deluxe</span>
+                </div>
+                <div class="card-content">
+
+                  <p class="truncatedparagraph">Get on board a luxurious vehicle exclusively for you and your companions with all the amenities available.
+                  </p>
 
                 </div>
-                <div class="col l6  s12">
-                    <h5 class="white-text">Contacto</h5>
-                    <ul>
-                        <li>
-                            <h6 class="white-text"><i class="material-icons inline-icon">phone</i>&nbsp;+1(829)-523-5453</h6>
-                        </li>
-                        <li>
-                            <h6 class="white-text"><i class="material-icons inline-icon">mail</i>&nbsp;ToursOperadoresEsperanza@gmail.com</h6>
-                        </li>
-                        <li>
-                            <h6 class="white-text"><img class="inline-icon" src="/img/facebook.png" />&nbsp;Tours
-                                Operadores Esperanza</h6>
-                        </li>
-                    </ul>
+                <div class="card-action center">
+                  <a style="cursor:pointer;" id="trekksoft_1927" class="center">
+                    <button class="btn-small orange darken-3">Book Now
+                    </button>
+                  </a>
+                  <a>
+                    <button class="btn-small orange darken-3">
+                      <i class="material-icons">info</i>
+                    </button>
+                  </a>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                2018 © Tours Operadores Esperanza, S.L.R.
+            <div class="col s12 m6 l4  xl3">
+              <div class="card large hoverable">
+                <div class="card-image black">
+                  <img src="img/transport2.jpg" alt="" style="opacity:.65">
+                  <span class="truncate card-title">Private Transfer</span>
+                </div>
+                <div class="card-content">
 
+                  <p class="truncatedparagraph">If you travel in a group or just want to enjoy a family vacation, the private transfer is the option you
+                    are looking for. Your vehicle may differ from what is pictured.
+                  </p>
+
+                </div>
+                <div class="card-action center">
+                  <a style="cursor:pointer;" id="trekksoft_1927" class="center">
+                    <button class="btn-small orange darken-3">Book Now
+                    </button>
+                  </a>
+                  <a>
+                    <button class="btn-small orange darken-3">
+                      <i class="material-icons">info</i>
+                    </button>
+                  </a>
+                </div>
+              </div>
             </div>
+            <div class="col s12 m6 l4  xl3">
+              <div class="card large hoverable">
+                <div class="card-image black">
+                  <img src="img/transport3.jpg" alt="" style="opacity:.65">
+                  <span class="truncate card-title">Shared transfers</span>
+                </div>
+                <div class="card-content">
+
+                  <p class="truncatedparagraph">Get on board a car or minivan to be shared with other passengers from your own party, family, or with travelers
+                    from other destinations.
+                  </p>
+
+                </div>
+                <div class="card-action center">
+                  <a style="cursor:pointer;" id="trekksoft_1927" class="center">
+                    <button class="btn-small orange darken-3">Book Now
+                    </button>
+                  </a>
+                  <a>
+                    <button class="btn-small orange darken-3">
+                      <i class="material-icons">info</i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+      </div>
+      <br>
+      <br>
+      </div>
+    </section>
+
+    <div class="carousel carousel-slider card" style="width:90%;margin-left:5%;margin-right:5%;margin-top:6%;height:120px;">
+      <a class="carousel-item" href="#one!">
+        <img src="Hotels/Book 3 night with toevacation.com and get a free transfer.png">
+      </a>
+      <a class="carousel-item" href="#one!">
+        <img src="Hotels/Book 3 night with toevacation.com and get a free transfer.png">
+      </a>
+      <a class="carousel-item" href="#one!">
+        <img src="Hotels/Book 3 night with toevacation.com and get a free transfer.png">
+      </a>
+      <a class="carousel-item" href="#one!">
+        <img src="Hotels/Book 3 night with toevacation.com and get a free transfer.png">
+      </a>
+    </div>
+
+
+
+
+
+
+
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h5 id="modaltitle"></h5>
+        <ul id="modalcontent" class="collection">
+
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+  </main>
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col  s12 m6">
+          <h5 class="orange-text text-darken-1">WHO WE ARE</h5>
+          <p class="">
+            TOE vacation Tour and Travel is a DMC, Destination Management Company, a receptive tour operator in the Dominican Republic.
+            We are all you need in the Caribbean destination. Colonial Tours is a reliable company with more than 10 years
+            of experience and committed to the highest level of service and professionalism, constantly researching and applying
+            new technology to create a seamless reservation process, speed of response and hospitality. We are based in Santo
+            Domingo with branch offices in the most important tourism zones of the Dominican Republic: Punta Cana, La Romana,
+            Samana, Boca Chica, Puerto Plata.
+          </p>
+        </div>
+
+        <div class="col  s12 m6">
+          <h5 class="orange-text text-darken-1">WEBSITE</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="#!">Sitemap</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Private Policy</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Travel Agent</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Accessibility Statement</a>
+            </li>
+          </ul>
+          <h5 class="orange-text text-darken-1">CONTACT US</h5>
+          <P>sales@toevacation.com</P>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+        Made by
+        <a class="orange-text text-darken-1" href="http://materializecss.com">Tours Operadores Esperanza</a>
+      </div>
+    </div>
+
+    <!-- Social Media icons-->
+
+    <section class="section section-follow orange darken-3 white-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="col-sm-3 social">
+              <h4>Social media</h4>
+              <ul>
+                <a href="https://www.facebook.com/Toevacation-514840719010377/" class="fa fa-facebook" style="font-size:23px;color:white;">
+                  </span>
+                  <a href="#" class="fa fa-twitter" style="font-size:23px;color:white;"></a>
+                  <a href="#" class="fa fa-youtube" style="font-size:23px;color:white;"></a>
+                  <a href="https://www.instagram.com/toevacation/" class="fa fa-instagram" style="font-size:23px;color:white;"></a>
+                  <a href="#" class="fa fa-pinterest" style="font-size:23px;color:white;"></a>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
 
 </body>
 
 </html>
-<script src="js/materializefuncions.js"></script>
-<script src="js/components.js"></script>
-<script src="js/main.js"></script>
+
+
+<!--  Scripts-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135258136-1"></script>
+<script src="js/initanalitics.js"></script>
+
+<script src="js/materialize.js"></script>
+<script src="data/allinclusive.js"></script>
+<script src="data/adventures.js"></script>
+<script src="data/ads.js"></script>
+<script src="components/components.js"></script>
+<script src="js/index.js"></script>
+<script src="https://tour-operadores-esperanza.trekksoft.com/es/api/public"></script>
